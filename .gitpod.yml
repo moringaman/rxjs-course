@@ -5,9 +5,9 @@
 tasks:
   - init: npm install && npm run build
     command: npm run start
-ports:
-  - port: 8080
-    visibility: public
-    onOpen: open-preview
+# ports:
+#   - port: 8080
+#     visibility: public
+#     onOpen: open-preview
 
 

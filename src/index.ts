@@ -1,4 +1,5 @@
 import { Observable } from 'rxjs';
+// import  "./styles.css";
 
 const someObservable$ = new Observable<string>(subscriber => {
   console.log('observable executed')
